@@ -11,8 +11,6 @@
 		8B6D474A2AE3C0DD002E6811 /* SpaceXAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 8B6D47492AE3C0DD002E6811 /* SpaceXAPI */; };
 		8B6D474D2AE3C147002E6811 /* SpaceXAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 8B6D474C2AE3C147002E6811 /* SpaceXAPI */; };
 		8B6D47512AE3C3B7002E6811 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6D47502AE3C3B7002E6811 /* Network.swift */; };
-		8B6D47532AE3C521002E6811 /* LaunchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6D47522AE3C521002E6811 /* LaunchViewModel.swift */; };
-		8B6D47552AE3C889002E6811 /* LaunchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6D47542AE3C889002E6811 /* LaunchModel.swift */; };
 		8B77D6E12AE3BC5A004F354C /* rocket_launchesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B77D6E02AE3BC5A004F354C /* rocket_launchesApp.swift */; };
 		8B77D6E32AE3BC5A004F354C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B77D6E22AE3BC5A004F354C /* ContentView.swift */; };
 		8B77D6E52AE3BC5C004F354C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B77D6E42AE3BC5C004F354C /* Assets.xcassets */; };
@@ -23,8 +21,6 @@
 
 /* Begin PBXFileReference section */
 		8B6D47502AE3C3B7002E6811 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
-		8B6D47522AE3C521002E6811 /* LaunchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewModel.swift; sourceTree = "<group>"; };
-		8B6D47542AE3C889002E6811 /* LaunchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchModel.swift; sourceTree = "<group>"; };
 		8B77D6DD2AE3BC5A004F354C /* rocket-launches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rocket-launches.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B77D6E02AE3BC5A004F354C /* rocket_launchesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rocket_launchesApp.swift; sourceTree = "<group>"; };
 		8B77D6E22AE3BC5A004F354C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,8 +69,6 @@
 				8B6D47502AE3C3B7002E6811 /* Network.swift */,
 				8B77D6E42AE3BC5C004F354C /* Assets.xcassets */,
 				8B77D6E62AE3BC5C004F354C /* Preview Content */,
-				8B6D47522AE3C521002E6811 /* LaunchViewModel.swift */,
-				8B6D47542AE3C889002E6811 /* LaunchModel.swift */,
 			);
 			path = "rocket-launches";
 			sourceTree = "<group>";
@@ -171,8 +165,6 @@
 				8B77D6E32AE3BC5A004F354C /* ContentView.swift in Sources */,
 				8B77D6E12AE3BC5A004F354C /* rocket_launchesApp.swift in Sources */,
 				8B6D47512AE3C3B7002E6811 /* Network.swift in Sources */,
-				8B6D47532AE3C521002E6811 /* LaunchViewModel.swift in Sources */,
-				8B6D47552AE3C889002E6811 /* LaunchModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

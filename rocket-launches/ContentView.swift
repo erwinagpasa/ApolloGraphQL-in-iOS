@@ -23,7 +23,6 @@ struct ContentView: View {
           switch result {
           case .success(let graphQLResult):
             if let rockets = graphQLResult.data?.rockets {
-              // Unwrap optional values and assign to rockets
               DispatchQueue.main.async {
                 self.rockets = rockets.compactMap { $0 }
               }

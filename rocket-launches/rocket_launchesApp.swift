@@ -9,12 +9,9 @@ import SwiftUI
 
 @main
 struct rocket_launchesApp: App {
-  @StateObject var launViewModel = LaunchViewModel()
-  
     var body: some Scene {
         WindowGroup {
             ContentView()
-            .environmentObject(launViewModel)
         }
     }
 }
